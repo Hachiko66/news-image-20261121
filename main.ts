@@ -1,3 +1,4 @@
+// news-image-20261121: entry point copies entry.png to /output/entry.png
 import { copyFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
